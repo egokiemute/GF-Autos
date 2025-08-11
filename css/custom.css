@@ -1,9 +1,4 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Novaride - Car Rental HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
+
 /* INDEX
 ----------------------------------------------------------------------------------------
 01. Global Variables
@@ -50,11 +45,11 @@
 	--primary-color			: #040401;
 	--secondary-color		: #FFF8F6;
 	--text-color			: #616161;
-	--accent-color			: #FF3600;
+	--accent-color			: #08c130;
 	--white-color			: #FFFFFF;
 	--divider-color			: #ECECEC;
 	--dark-divider-color	: #FFFFFF33;
-	--error-color			: rgb(230, 87, 87);
+	--error-color			: rgb(243, 145, 116);
 	--default-font			: "DM Sans", sans-serif;
 	--accent-font			: "Epilogue", sans-serif;
 }
@@ -1655,20 +1650,7 @@ header.main-header .header-sticky.active{
 	text-align: center;
 }
 
-.how-work-img::before{
-    content: '';
-    position: absolute;
-    top: -10px;
-    bottom: 0;
-    left: -10px;
-    right: 0;
-    width: 414px;
-    height: 100%;
-	margin: 0 auto;
-    border: 1px solid var(--divider-color);
-    border-radius: 200px;
-    z-index: 1;
-}
+
 
 .how-work-img img{
 	border-radius: 200px;
